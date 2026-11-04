@@ -11,12 +11,13 @@ build:
   tools:
     python: "3.12"
   jobs:
-    # post_create_environment:
+    post_create_environment:
+      # Update pip to support dependency groups
+      - python -m pip install --upgrade pip
       # CPU-only torch, so the build doesn't download the CUDA packages
-      # - pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
     post_install:
-    	# - pip install --upgrade pip
-      - pip install -e . --group docs
+      - python -m pip install -e . --group docs
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
