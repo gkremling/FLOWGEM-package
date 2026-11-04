@@ -2,9 +2,13 @@
 name = "flowgem"
 version = "0.1.0"
 description = "Nonparametric generative sampling for MAR missing data via approximate Wasserstein gradient flows"
-authors = ["Muhammad Haris Mumtaz", "Gitte Kremling"]
+authors = ["Muhammad Haris Mumtaz", "Gitte Kremling <gitte.kremling@uni-hamburg.de>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/gkremling/FLOWGEM-package"
+documentation = "https://flowgem.readthedocs.io"
+keywords = ["missing values", "imputation", "generative models", "Wasserstein gradient flow"]
+
 
 [tool.poetry.dependencies]
 python = "^3.12"
