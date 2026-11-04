@@ -1,33 +1,31 @@
-[tool.poetry]
+[project]
 name = "flowgem"
 version = "0.1.0"
 description = "Nonparametric generative sampling for MAR missing data via approximate Wasserstein gradient flows"
-authors = ["Muhammad Haris Mumtaz", "Gitte Kremling <gitte.kremling@uni-hamburg.de>"]
-license = "MIT"
 readme = "README.md"
-repository = "https://github.com/gkremling/FLOWGEM-package"
-documentation = "https://flowgem.readthedocs.io"
-keywords = ["missing values", "imputation", "generative models", "Wasserstein gradient flow"]
+license = "MIT"
+requires-python = ">=3.12"
+authors = [
+    { name = "Muhammad Haris Mumtaz" },
+    { name = "Gitte Kremling", email = "gitte.kremling@uni-hamburg.de" },
+]
+dependencies = [
+    "torch>=2.13.0",
+    "numpy>=2.5.1",
+    "scikit-learn>=1.9.0",
+    "joblib>=1.5.3",
+    "tqdm>=4.68.4",
+    "hyperimpute>=0.1.17"
+]
 
-
-[tool.poetry.dependencies]
-python = "^3.12"
-torch = {version = "^2.13.0", source = "pytorch-cpu"}
-numpy = "^2.5.1"
-scikit-learn = "^1.9.0"
-joblib = "^1.5.3"
-tqdm = "^4.68.4"
-hyperimpute = "^0.1.17"
-
-
-[[tool.poetry.source]]
-name = "pytorch-cpu"
-url = "https://download.pytorch.org/whl/cpu"
-priority = "explicit"
+[project.urls]
+Homepage = "https://github.com/gkremling/FLOWGEM-package"
+Repository = "https://github.com/gkremling/FLOWGEM-package"
+Documentation = "https://flowgem.readthedocs.io"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [

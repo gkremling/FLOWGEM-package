@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/gkremling/FLOWGEM-package/blob/main/LICENSE)
 
-[![Tests](https://github.com/Haris-ML/FLOWGEM/actions/workflows/ci.yml/badge.svg)](https://github.com/gkremling/FLOWGEM-package/actions)
+[![Tests](https://github.com/gkremling/FLOWGEM-package/actions/workflows/ci.yml/badge.svg)](https://github.com/gkremling/FLOWGEM-package/actions)
 
 ## What is FLOWGEM?
 
