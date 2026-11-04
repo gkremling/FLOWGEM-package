@@ -10,7 +10,7 @@
 
 ## What is FLOWGEM?
 
-FLOWGEM recieves a dataset with missing values and generates a complete dataset sampled from the same distribution. It recovers the complete distribution of the data while preserving variances and correlations which keeps downstream analyses like means, quantiles, and correlations unbiased.
+FLOWGEM receives a dataset with missing values and generates a complete dataset sampled from the same distribution. It recovers the complete distribution of the data while preserving variances and correlations which keeps downstream analyses like means, quantiles, and correlations unbiased.
 
 It targets data which is **Missing at Random (MAR)**, including non-monotone MAR. It is nonparametric and makes no assumption about the shape of your data. Under the hood it uses approximate Wasserstein gradient flow which iteratively transports a particle ensemble towards target distribution.
 
