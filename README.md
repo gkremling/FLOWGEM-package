@@ -2,11 +2,11 @@
 
 **Generative sampling for missing data under MAR, via approximate Wasserstein gradient flows.**
 
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/Haris-ML/FLOWGEM)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/gkremling/FLOWGEM-package)
 [![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/Haris-ML/FLOWGEM/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/gkremling/FLOWGEM-package/blob/main/LICENSE)
 
-[![Tests](https://github.com/Haris-ML/FLOWGEM/actions/workflows/ci.yml/badge.svg)](https://github.com/Haris-ML/FLOWGEM/actions)
+[![Tests](https://github.com/Haris-ML/FLOWGEM/actions/workflows/ci.yml/badge.svg)](https://github.com/gkremling/FLOWGEM-package/actions)
 
 ## What is FLOWGEM?
 
@@ -28,7 +28,7 @@ pip install flowgem
 Or install the latest development version from GitHub:
 
 ```bash
-pip install git+https://github.com/Haris-ML/FLOWGEM.git
+pip install git+https://github.com/gkremling/FLOWGEM-package.git
 ```
 
 ## Quick start
@@ -93,4 +93,4 @@ While using the package in course of your research, please cite this paper:
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/Haris-ML/FLOWGEM/blob/main/LICENSE) file.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/gkremling/FLOWGEM-package/blob/main/LICENSE) file.

@@ -7,8 +7,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u"flowgem"
-copyright = u"2026, Muhammad Haris Mumtaz"
-author = u"Muhammad Haris Mumtaz"
+copyright = u"2026, Muhammad Haris Mumtaz, Gitte Kremling"
+author = u"Muhammad Haris Mumtaz, Gitte Kremling"
 
 # -- General configuration ---------------------------------------------------
 
